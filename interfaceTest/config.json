@@ -1,0 +1,146 @@
+{
+  "baseUrls": [
+    {
+      "host": "http://api.test.weponycar.com",
+      "name": "用户端-测试环境"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "控制开关接口",
+      "url": "/member/switch_control"
+    },
+    {
+      "name": "拉取认证类开关控制参数",
+      "url": "/Control/auth_control"
+    },
+    {
+      "name": "首页广告接口",
+      "url": "/message/activity_index"
+    },
+    {
+      "name": "升级检测接口",
+      "url": "/system/upgrade_detection"
+    },
+    {
+      "name": "首页网点图标信息",
+      "url": "/home/index_parking_icon_info"
+    },
+    {
+      "name": "首页马上用车图标信息",
+      "url": "/home/index_use_car_icon_info"
+    },
+    {
+      "name": "用车首页接口",
+      "url": "/home/use_car_index"
+    },
+    {
+      "name": "马上用车接口",
+      "url": "/home/instant_car"
+    },
+    {
+      "name": "可用车辆接口",
+      "url": "/home/get_list_by_place"
+    },
+    {
+      "name": "短信码接口",
+      "url": "/user/send_sms_vcode"
+    },
+    {
+      "name": "登录",
+      "url": "/user/register"
+    },
+    {
+      "name": "首页公告接口",
+      "url": "/home/home_notice"
+    },
+    {
+      "name": "用户最新订单状态接口",
+      "url": "/order/order_new_status"
+    },
+    {
+      "name": "用车套餐接口",
+      "url": "/order/car_package"
+    },
+    {
+      "name": "马力值详情接口",
+      "url": "/Operate/power_detail"
+    },
+    {
+      "name": "下单接口",
+      "url": "/order/send_order"
+    },
+    {
+      "name": "用户订单处于预约中接口",
+      "url": "/order/car_appoint"
+    },
+    {
+      "name": "用车控制接口",
+      "url": "/car/car_ctrl"
+    },
+    {
+      "name": "取消订单接口",
+      "url": "/order/cancel_order"
+    },
+    {
+      "name": "确认用车检查马力值接口",
+      "url": "/power/power_order_check"
+    },
+    {
+      "name": "用户取车接口",
+      "url": "/car/pick_car"
+    },
+    {
+      "name": "停车网点不允许报销",
+      "url": "/user/user_expense"
+    },
+    {
+      "name": "推荐还车网点接口",
+      "url": "/order/recommend_outlets"
+    },
+    {
+      "name": "消息未读数接口",
+      "url": "/message/message_unread"
+    },
+    {
+      "name": "车辆是否停靠网点接口",
+      "url": "/car/check_park"
+    },
+    {
+      "name": "还车",
+      "url": "/car/return_car"
+    },
+    {
+      "name": "违章列表",
+      "url": "/user/peccancy_list_info"
+    },
+    {
+      "name": "个人资料接口",
+      "url": "/member/personal_center"
+    },
+    {
+      "name": "用户钱包接口",
+      "url": "/member/wallet"
+    },
+    {
+      "name": "可用优惠券数量",
+      "url": "/member/user_coupon"
+    },
+    {
+      "name": "订单列表接口",
+      "url": "/order/order_list"
+    },
+    {
+      "name": "事故救援列表接口",
+      "url": "/Rescure_info/acd_list"
+    },
+    {
+      "name": "邀请好友优惠券配置详情接口",
+      "url": "/user/invite_index"
+    },
+    {
+      "name": "免密代扣协议查询接口",
+      "url": "/member/agreement_info"
+    }
+  ]
+}
